@@ -31,4 +31,11 @@ public class CarRepositorio {
     public Car save(Car car){
         return carCrudRepository.save(car);
     }
+    
+       
+    public void delete (Car car){
+        carCrudRepository.delete(car);
+       
+            }
+
 }
